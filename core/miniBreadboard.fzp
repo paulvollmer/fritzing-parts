@@ -2389,7 +2389,7 @@
         </pcbView>
       </views>
     </connector>
-     <connector id="I17" name="I17" type="female">
+    <connector id="I17" name="I17" type="female">
       <description>breadboard socket</description>
       <views>
         <breadboardView>
@@ -2417,7 +2417,7 @@
         </pcbView>
       </views>
     </connector>
- </connectors>
+  </connectors>
   <buses>
     <bus id="bus0-1">
       <nodeMember connectorId="A1"/>
@@ -2657,6 +2657,5 @@
       <nodeMember connectorId="I17"/>
       <nodeMember connectorId="J17"/>
     </bus>
-
   </buses>
 </module>

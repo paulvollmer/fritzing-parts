@@ -1,20 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <module fritzingVersion="0.7.0b.02.01.5801" moduleId="bf73a00d2ecd04be25675ebfb2d130c0">
-    <author>wreutz</author>
-    <url>http://www.sparkfun.com/products/8257</url>
-    <title>Humidity Temperature Sensor SHT15</title>
-    <date>2012-02-20</date>
-    <tags>
-        <tag>humidity</tag>
-        <tag>temperature</tag>
-        <tag>sensor</tag>
-        <tag>breakout</tag>
-    </tags>
-    <properties>
-        <property name="family">Humidity Breakout</property>
-        <property name="part number"/>
-    </properties>
-    <description>&lt;p>&lt;b>Description:&lt;/b>&lt;/p>
+  <author>wreutz</author>
+  <url>http://www.sparkfun.com/products/8257</url>
+  <title>Humidity Temperature Sensor SHT15</title>
+  <date>2012-02-20</date>
+  <tags>
+    <tag>humidity</tag>
+    <tag>temperature</tag>
+    <tag>sensor</tag>
+    <tag>breakout</tag>
+  </tags>
+  <properties>
+    <property name="family">Humidity Breakout</property>
+    <property name="part number"/>
+  </properties>
+  <description>&lt;p>&lt;b>Description:&lt;/b>&lt;/p>
       &lt;p>This is a simple breakout board for the SHT15 humidity sensor from Sensirion. The SHT15 digital humidity and temperature sensor is fully calibrated and offers high precision and excellent long-term stability at low cost. The digital CMOSens Technology integrates two sensors and readout circuitry on one single chip.
 
       These sensors are really impressive! Very sensitive and straight forward to use. Board comes assembled and tested with the SHT15.&lt;/p>
@@ -75,91 +75,91 @@
      &lt;a classname="" href="http://www.sensirion.com/images/getFile?id=123" name="" target="_blank">RoHS Certificate&lt;/a>&lt;/li>
   &lt;/li>
 &lt;/ul></description>
-    <views>
-        <iconView>
-            <layers image="icon/Humidity_Sensor_SHT15_icon.svg">
-                <layer layerId="icon"/>
-            </layers>
-        </iconView>
+  <views>
+    <iconView>
+      <layers image="icon/Humidity_Sensor_SHT15_icon.svg">
+        <layer layerId="icon"/>
+      </layers>
+    </iconView>
+    <breadboardView>
+      <layers image="breadboard/Humidity_Sensor_SHT15_breadboard.svg">
+        <layer layerId="breadboard"/>
+        <layer layerId="icon"/>
+      </layers>
+    </breadboardView>
+    <schematicView>
+      <layers image="schematic/Humidity_Sensor_SHT15_schematic.svg">
+        <layer layerId="schematic"/>
+      </layers>
+    </schematicView>
+    <pcbView>
+      <layers image="pcb/Humidity_Sensor_SHT15_pcb.svg">
+        <layer layerId="copper0"/>
+        <layer layerId="silkscreen"/>
+        <layer layerId="copper1"/>
+      </layers>
+    </pcbView>
+  </views>
+  <connectors>
+    <connector type="male" id="connector3" name="VCC">
+      <description>no description yet</description>
+      <views>
         <breadboardView>
-            <layers image="breadboard/Humidity_Sensor_SHT15_breadboard.svg">
-                <layer layerId="breadboard"/>
-                <layer layerId="icon"/>
-            </layers>
+          <p svgId="connector3" layer="breadboard"/>
         </breadboardView>
         <schematicView>
-            <layers image="schematic/Humidity_Sensor_SHT15_schematic.svg">
-                <layer layerId="schematic"/>
-            </layers>
+          <p svgId="connector3" layer="schematic" terminalId="connector3terminal"/>
         </schematicView>
         <pcbView>
-            <layers image="pcb/Humidity_Sensor_SHT15_pcb.svg">
-                <layer layerId="copper0"/>
-                <layer layerId="silkscreen"/>
-                <layer layerId="copper1"/>
-            </layers>
+          <p svgId="connector3" layer="copper1"/>
+          <p svgId="connector3" layer="copper0"/>
         </pcbView>
-    </views>
-    <connectors>
-        <connector type="male" id="connector3" name="VCC">
-            <description>no description yet</description>
-            <views>
-                <breadboardView>
-                    <p svgId="connector3" layer="breadboard"/>
-                </breadboardView>
-                <schematicView>
-                    <p svgId="connector3" layer="schematic" terminalId="connector3terminal"/>
-                </schematicView>
-                <pcbView>
-                    <p svgId="connector3" layer="copper1"/>
-                    <p svgId="connector3" layer="copper0"/>
-                </pcbView>
-            </views>
-        </connector>
-        <connector type="male" id="connector0" name="GND">
-            <description>no description yet</description>
-            <views>
-                <breadboardView>
-                    <p svgId="connector0" layer="breadboard"/>
-                </breadboardView>
-                <schematicView>
-                    <p svgId="connector0" layer="schematic" terminalId="connector0terminal"/>
-                </schematicView>
-                <pcbView>
-                    <p svgId="connector0" layer="copper1"/>
-                    <p svgId="connector0" layer="copper0"/>
-                </pcbView>
-            </views>
-        </connector>
-        <connector type="male" id="connector1" name="SCL">
-            <description>no description yet</description>
-            <views>
-                <breadboardView>
-                    <p svgId="connector1" layer="breadboard"/>
-                </breadboardView>
-                <schematicView>
-                    <p svgId="connector1" layer="schematic" terminalId="connector1terminal"/>
-                </schematicView>
-                <pcbView>
-                    <p svgId="connector1" layer="copper1"/>
-                    <p svgId="connector1" layer="copper0"/>
-                </pcbView>
-            </views>
-        </connector>
-        <connector type="male" id="connector2" name="SDA">
-            <description>no description yet</description>
-            <views>
-                <breadboardView>
-                    <p svgId="connector2" layer="breadboard"/>
-                </breadboardView>
-                <schematicView>
-                    <p svgId="connector2" layer="schematic" terminalId="connector2terminal"/>
-                </schematicView>
-                <pcbView>
-                    <p svgId="connector2" layer="copper1"/>
-                    <p svgId="connector2" layer="copper0"/>
-                </pcbView>
-            </views>
-        </connector>
-    </connectors>
+      </views>
+    </connector>
+    <connector type="male" id="connector0" name="GND">
+      <description>no description yet</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector0" layer="breadboard"/>
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector0" layer="schematic" terminalId="connector0terminal"/>
+        </schematicView>
+        <pcbView>
+          <p svgId="connector0" layer="copper1"/>
+          <p svgId="connector0" layer="copper0"/>
+        </pcbView>
+      </views>
+    </connector>
+    <connector type="male" id="connector1" name="SCL">
+      <description>no description yet</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector1" layer="breadboard"/>
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector1" layer="schematic" terminalId="connector1terminal"/>
+        </schematicView>
+        <pcbView>
+          <p svgId="connector1" layer="copper1"/>
+          <p svgId="connector1" layer="copper0"/>
+        </pcbView>
+      </views>
+    </connector>
+    <connector type="male" id="connector2" name="SDA">
+      <description>no description yet</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector2" layer="breadboard"/>
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector2" layer="schematic" terminalId="connector2terminal"/>
+        </schematicView>
+        <pcbView>
+          <p svgId="connector2" layer="copper1"/>
+          <p svgId="connector2" layer="copper0"/>
+        </pcbView>
+      </views>
+    </connector>
+  </connectors>
 </module>

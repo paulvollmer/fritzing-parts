@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <module fritzingVersion="0.5.2b.02.18.4756" moduleId="pololu0002_a988" referenceFile="pololu0002_a988.fzp">
- <version>5</version>
- <date>mer feb 26 2014</date>
- <author>Matteo Perini + Fabian Althaus</author>
- <description>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+  <version>5</version>
+  <date>mer feb 26 2014</date>
+  <author>Matteo Perini + Fabian Althaus</author>
+  <description>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
 &lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
 p, li { white-space: pre-wrap; }
 &lt;/style>&lt;/head>&lt;body style=" font-family:'Ubuntu'; font-size:9pt; font-weight:400; font-style:normal;">
@@ -74,13 +74,13 @@ p, li { white-space: pre-wrap; }
 &lt;li style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Short-to-ground and shorted-load protection&lt;/li>&lt;/ul>
 &lt;p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">This product ships with all surface-mount components—including the A4988 driver IC—installed as shown in the product picture.&lt;/p>
 &lt;p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Note that we carry several stepper motor drivers that can be used as alternatives for this module. The &lt;a href="http://www.pololu.com/product/2128">&lt;span style=" text-decoration: underline; color:#0057ae;">Black Edition A4988 stepper motor driver carrier&lt;/span>&lt;/a> is available with approximately 20% better performance; except for thermal characteristics, the Black Edition and this (green) board are interchangeable. We also sell a &lt;a href="http://www.pololu.com/product/1183">&lt;span style=" text-decoration: underline; color:#0057ae;">larger version of the A4988 carrier&lt;/span>&lt;/a> that has reverse power protection on the main power input and built-in 5 V and 3.3 V voltage regulators that eliminate the need for separate logic and motor supplies. Our &lt;a href="http://www.pololu.com/product/2133">&lt;span style=" text-decoration: underline; color:#0057ae;">DRV8825 carrier&lt;/span>&lt;/a> offers approximately 50% better performance over a wider voltage range and with a few additional features, while our &lt;a href="http://www.pololu.com/product/2134">&lt;span style=" text-decoration: underline; color:#0057ae;">DRV8834 carrier&lt;/span>&lt;/a> works with motor supply voltages as low as 2.5 V; either of these boards can be used as a drop-in replacement for this driver in many applications.&lt;/p>&lt;/body>&lt;/html></description>
- <title>Pololu A4988</title>
- <tags>
+<title>Pololu A4988</title>
+<tags>
   <tag>stepper motor driver</tag>
- <tag>pololu</tag>
+  <tag>pololu</tag>
   <tag>a988</tag>
- </tags>
- <properties>
+</tags>
+<properties>
   <property name="family">stepper motor driver</property>
   <property name="variant">variant 2</property>
   <property name="package">SO16</property>
@@ -88,274 +88,273 @@ p, li { white-space: pre-wrap; }
   <property name="editable pin labels">false</property>
   <property name="chip label">IC</property>
   <property name="part number"></property>
- </properties>
- <views>
+</properties>
+<views>
   <breadboardView>
-   <layers image="breadboard/pololu0002_a988_breadboard.svg">
-    <layer layerId="breadboard"/>
-   </layers>
+    <layers image="breadboard/pololu0002_a988_breadboard.svg">
+      <layer layerId="breadboard"/>
+    </layers>
   </breadboardView>
   <schematicView>
-   <layers image="schematic/pololu0002_a988_schematic.svg">
-    <layer layerId="schematic"/>
-   </layers>
+    <layers image="schematic/pololu0002_a988_schematic.svg">
+      <layer layerId="schematic"/>
+    </layers>
   </schematicView>
   <pcbView>
-   <layers image="pcb/pololu0002_a988_pcb.svg">
-    <layer layerId="copper1"/>
-    <layer layerId="silkscreen"/>
-       <layer layerId="copper0"/>
-   </layers>
+    <layers image="pcb/pololu0002_a988_pcb.svg">
+      <layer layerId="copper1"/>
+      <layer layerId="silkscreen"/>
+      <layer layerId="copper0"/>
+    </layers>
   </pcbView>
   <iconView>
-   <layers image="icon/pololu0002_a988_icon.svg">
-    <layer layerId="icon"/>
-   </layers>
+    <layers image="icon/pololu0002_a988_icon.svg">
+      <layer layerId="icon"/>
+    </layers>
   </iconView>
- </views>
- <connectors>
+</views>
+<connectors>
   <connector type="male" id="connector0" name="ENABLE">
-   <description>if 0  true</description>
-   <views>
-    <breadboardView>
-     <p svgId="connector0pin" layer="breadboard"/>
-    </breadboardView>
-    <schematicView>
-     <p svgId="connector0pin" layer="schematic" terminalId="connector0terminal"/>
-    </schematicView>
-    <pcbView>
-     <p svgId="connector0pad" layer="copper1"/>
-    <p svgId="connector0pad" layer="copper0"/>
-    </pcbView>
-   </views>
+    <description>if 0  true</description>
+    <views>
+      <breadboardView>
+        <p svgId="connector0pin" layer="breadboard"/>
+      </breadboardView>
+      <schematicView>
+        <p svgId="connector0pin" layer="schematic" terminalId="connector0terminal"/>
+      </schematicView>
+      <pcbView>
+        <p svgId="connector0pad" layer="copper1"/>
+        <p svgId="connector0pad" layer="copper0"/>
+      </pcbView>
+    </views>
   </connector>
   <connector type="male" id="connector1" name="MS1">
-   <description/>
-   <views>
-    <breadboardView>
-     <p svgId="connector1pin" layer="breadboard"/>
-    </breadboardView>
-    <schematicView>
-     <p svgId="connector1pin" layer="schematic" terminalId="connector1terminal"/>
-    </schematicView>
-    <pcbView>
-     <p svgId="connector1pad" layer="copper1"/>
-    <p svgId="connector1pad" layer="copper0"/>
-    </pcbView>
-   </views>
+    <description/>
+    <views>
+      <breadboardView>
+        <p svgId="connector1pin" layer="breadboard"/>
+      </breadboardView>
+      <schematicView>
+        <p svgId="connector1pin" layer="schematic" terminalId="connector1terminal"/>
+      </schematicView>
+      <pcbView>
+        <p svgId="connector1pad" layer="copper1"/>
+        <p svgId="connector1pad" layer="copper0"/>
+      </pcbView>
+    </views>
   </connector>
   <connector type="male" id="connector2" name="MS2">
-   <description/>
-   <views>
-    <breadboardView>
-     <p svgId="connector2pin" layer="breadboard"/>
-    </breadboardView>
-    <schematicView>
-     <p svgId="connector2pin" layer="schematic" terminalId="connector2terminal"/>
-    </schematicView>
-    <pcbView>
-     <p svgId="connector2pad" layer="copper1"/>
-    <p svgId="connector2pad" layer="copper0"/>
-    </pcbView>
-   </views>
+    <description/>
+    <views>
+      <breadboardView>
+        <p svgId="connector2pin" layer="breadboard"/>
+      </breadboardView>
+      <schematicView>
+        <p svgId="connector2pin" layer="schematic" terminalId="connector2terminal"/>
+      </schematicView>
+      <pcbView>
+        <p svgId="connector2pad" layer="copper1"/>
+        <p svgId="connector2pad" layer="copper0"/>
+      </pcbView>
+    </views>
   </connector>
   <connector type="male" id="connector3" name="MS3">
-   <description/>
-   <views>
-    <breadboardView>
-     <p svgId="connector3pin" layer="breadboard"/>
-    </breadboardView>
-    <schematicView>
-     <p svgId="connector3pin" layer="schematic" terminalId="connector3terminal"/>
-    </schematicView>
-    <pcbView>
-     <p svgId="connector3pad" layer="copper1"/>
-    <p svgId="connector3pad" layer="copper0"/>
-    </pcbView>
-   </views>
+    <description/>
+    <views>
+      <breadboardView>
+        <p svgId="connector3pin" layer="breadboard"/>
+      </breadboardView>
+      <schematicView>
+        <p svgId="connector3pin" layer="schematic" terminalId="connector3terminal"/>
+      </schematicView>
+      <pcbView>
+        <p svgId="connector3pad" layer="copper1"/>
+        <p svgId="connector3pad" layer="copper0"/>
+      </pcbView>
+    </views>
   </connector>
   <connector type="male" id="connector4" name="RESET">
-   <description>If 0 true</description>
-   <views>
-    <breadboardView>
-     <p svgId="connector4pin" layer="breadboard"/>
-    </breadboardView>
-    <schematicView>
-     <p svgId="connector4pin" layer="schematic" terminalId="connector4terminal"/>
-    </schematicView>
-    <pcbView>
-     <p svgId="connector4pad" layer="copper1"/>
-    <p svgId="connector4pad" layer="copper0"/>
-    </pcbView>
-   </views>
+    <description>If 0 true</description>
+    <views>
+      <breadboardView>
+        <p svgId="connector4pin" layer="breadboard"/>
+      </breadboardView>
+      <schematicView>
+        <p svgId="connector4pin" layer="schematic" terminalId="connector4terminal"/>
+      </schematicView>
+      <pcbView>
+        <p svgId="connector4pad" layer="copper1"/>
+        <p svgId="connector4pad" layer="copper0"/>
+      </pcbView>
+    </views>
   </connector>
   <connector type="male" id="connector5" name="SLEEP">
-   <description>If 0 true</description>
-   <views>
-    <breadboardView>
-     <p svgId="connector5pin" layer="breadboard"/>
-    </breadboardView>
-    <schematicView>
-     <p svgId="connector5pin" layer="schematic" terminalId="connector5terminal"/>
-    </schematicView>
-    <pcbView>
-     <p svgId="connector5pad" layer="copper1"/>
-    <p svgId="connector5pad" layer="copper0"/>
-    </pcbView>
-   </views>
+    <description>If 0 true</description>
+    <views>
+      <breadboardView>
+        <p svgId="connector5pin" layer="breadboard"/>
+      </breadboardView>
+      <schematicView>
+        <p svgId="connector5pin" layer="schematic" terminalId="connector5terminal"/>
+      </schematicView>
+      <pcbView>
+        <p svgId="connector5pad" layer="copper1"/>
+        <p svgId="connector5pad" layer="copper0"/>
+      </pcbView>
+    </views>
   </connector>
   <connector type="male" id="connector6" name="STEP">
-   <description/>
-   <views>
-    <breadboardView>
-     <p svgId="connector6pin" layer="breadboard"/>
-    </breadboardView>
-    <schematicView>
-     <p svgId="connector6pin" layer="schematic" terminalId="connector6terminal"/>
-    </schematicView>
-    <pcbView>
-     <p svgId="connector6pad" layer="copper1"/>
-    <p svgId="connector6pad" layer="copper0"/>
-    </pcbView>
-   </views>
+    <description/>
+    <views>
+      <breadboardView>
+        <p svgId="connector6pin" layer="breadboard"/>
+      </breadboardView>
+      <schematicView>
+        <p svgId="connector6pin" layer="schematic" terminalId="connector6terminal"/>
+      </schematicView>
+      <pcbView>
+        <p svgId="connector6pad" layer="copper1"/>
+        <p svgId="connector6pad" layer="copper0"/>
+      </pcbView>
+    </views>
   </connector>
   <connector type="male" id="connector7" name="DIR">
-   <description/>
-   <views>
-    <breadboardView>
-     <p svgId="connector7pin" layer="breadboard"/>
-    </breadboardView>
-    <schematicView>
-     <p svgId="connector7pin" layer="schematic" terminalId="connector7terminal"/>
-    </schematicView>
-    <pcbView>
-     <p svgId="connector7pad" layer="copper1"/>
-    <p svgId="connector7pad" layer="copper0"/>
-    </pcbView>
-   </views>
+    <description/>
+    <views>
+      <breadboardView>
+        <p svgId="connector7pin" layer="breadboard"/>
+      </breadboardView>
+      <schematicView>
+        <p svgId="connector7pin" layer="schematic" terminalId="connector7terminal"/>
+      </schematicView>
+      <pcbView>
+        <p svgId="connector7pad" layer="copper1"/>
+        <p svgId="connector7pad" layer="copper0"/>
+      </pcbView>
+    </views>
   </connector>
   <connector type="male" id="connector8" name="GND">
-   <description>logic ground</description>
-   <views>
-    <breadboardView>
-     <p svgId="connector8pin" layer="breadboard"/>
-    </breadboardView>
-    <schematicView>
-     <p svgId="connector8pin" layer="schematic" terminalId="connector8terminal"/>
-    </schematicView>
-    <pcbView>
-     <p svgId="connector8pad" layer="copper1"/>
-    <p svgId="connector8pad" layer="copper0"/>
-    </pcbView>
-   </views>
+    <description>logic ground</description>
+    <views>
+      <breadboardView>
+        <p svgId="connector8pin" layer="breadboard"/>
+      </breadboardView>
+      <schematicView>
+        <p svgId="connector8pin" layer="schematic" terminalId="connector8terminal"/>
+      </schematicView>
+      <pcbView>
+        <p svgId="connector8pad" layer="copper1"/>
+        <p svgId="connector8pad" layer="copper0"/>
+      </pcbView>
+    </views>
   </connector>
   <connector type="male" id="connector9" name="VDD">
-   <description>logic power supply (3-5.5V)</description>
-   <views>
-    <breadboardView>
-     <p svgId="connector9pin" layer="breadboard"/>
-    </breadboardView>
-    <schematicView>
-     <p svgId="connector9pin" layer="schematic" terminalId="connector9terminal"/>
-    </schematicView>
-    <pcbView>
-     <p svgId="connector9pad" layer="copper1"/>
-    <p svgId="connector9pad" layer="copper0"/>
-    </pcbView>
-   </views>
+    <description>logic power supply (3-5.5V)</description>
+    <views>
+      <breadboardView>
+        <p svgId="connector9pin" layer="breadboard"/>
+      </breadboardView>
+      <schematicView>
+        <p svgId="connector9pin" layer="schematic" terminalId="connector9terminal"/>
+      </schematicView>
+      <pcbView>
+        <p svgId="connector9pad" layer="copper1"/>
+        <p svgId="connector9pad" layer="copper0"/>
+      </pcbView>
+    </views>
   </connector>
   <connector type="male" id="connector10" name="1B">
-   <description/>
-   <views>
-    <breadboardView>
-     <p svgId="connector10pin" layer="breadboard"/>
-    </breadboardView>
-    <schematicView>
-     <p svgId="connector10pin" layer="schematic" terminalId="connector10terminal"/>
-    </schematicView>
-    <pcbView>
-     <p svgId="connector10pad" layer="copper1"/>
-    <p svgId="connector10pad" layer="copper0"/>
-    </pcbView>
-   </views>
+    <description/>
+    <views>
+      <breadboardView>
+        <p svgId="connector10pin" layer="breadboard"/>
+      </breadboardView>
+      <schematicView>
+        <p svgId="connector10pin" layer="schematic" terminalId="connector10terminal"/>
+      </schematicView>
+      <pcbView>
+        <p svgId="connector10pad" layer="copper1"/>
+        <p svgId="connector10pad" layer="copper0"/>
+      </pcbView>
+    </views>
   </connector>
   <connector type="male" id="connector11" name="1A">
-   <description/>
-   <views>
-    <breadboardView>
-     <p svgId="connector11pin" layer="breadboard"/>
-    </breadboardView>
-    <schematicView>
-     <p svgId="connector11pin" layer="schematic" terminalId="connector11terminal"/>
-    </schematicView>
-    <pcbView>
-     <p svgId="connector11pad" layer="copper1"/>
-    <p svgId="connector11pad" layer="copper0"/>
-    </pcbView>
-   </views>
+    <description/>
+    <views>
+      <breadboardView>
+        <p svgId="connector11pin" layer="breadboard"/>
+      </breadboardView>
+      <schematicView>
+        <p svgId="connector11pin" layer="schematic" terminalId="connector11terminal"/>
+      </schematicView>
+      <pcbView>
+        <p svgId="connector11pad" layer="copper1"/>
+        <p svgId="connector11pad" layer="copper0"/>
+      </pcbView>
+    </views>
   </connector>
   <connector type="male" id="connector12" name="2A">
-   <description/>
-   <views>
-    <breadboardView>
-     <p svgId="connector12pin" layer="breadboard"/>
-    </breadboardView>
-    <schematicView>
-     <p svgId="connector12pin" layer="schematic" terminalId="connector12terminal"/>
-    </schematicView>
-    <pcbView>
-     <p svgId="connector12pad" layer="copper1"/>
-    <p svgId="connector12pad" layer="copper0"/>
-    </pcbView>
-   </views>
+    <description/>
+    <views>
+      <breadboardView>
+        <p svgId="connector12pin" layer="breadboard"/>
+      </breadboardView>
+      <schematicView>
+        <p svgId="connector12pin" layer="schematic" terminalId="connector12terminal"/>
+      </schematicView>
+      <pcbView>
+        <p svgId="connector12pad" layer="copper1"/>
+        <p svgId="connector12pad" layer="copper0"/>
+      </pcbView>
+    </views>
   </connector>
   <connector type="male" id="connector13" name="2B">
-   <description/>
-   <views>
-    <breadboardView>
-     <p svgId="connector13pin" layer="breadboard"/>
-    </breadboardView>
-    <schematicView>
-     <p svgId="connector13pin" layer="schematic" terminalId="connector13terminal"/>
-    </schematicView>
-    <pcbView>
-     <p svgId="connector13pad" layer="copper1"/>
-    <p svgId="connector13pad" layer="copper0"/>
-    </pcbView>
-   </views>
+    <description/>
+    <views>
+      <breadboardView>
+        <p svgId="connector13pin" layer="breadboard"/>
+      </breadboardView>
+      <schematicView>
+        <p svgId="connector13pin" layer="schematic" terminalId="connector13terminal"/>
+      </schematicView>
+      <pcbView>
+        <p svgId="connector13pad" layer="copper1"/>
+        <p svgId="connector13pad" layer="copper0"/>
+      </pcbView>
+    </views>
   </connector>
   <connector type="male" id="connector14" name="GND">
-   <description>motor ground</description>
-   <views>
-    <breadboardView>
-     <p svgId="connector14pin" layer="breadboard"/>
-    </breadboardView>
-    <schematicView>
-     <p svgId="connector14pin" layer="schematic" terminalId="connector14terminal"/>
-    </schematicView>
-    <pcbView>
-     <p svgId="connector14pad" layer="copper1"/>
-    <p svgId="connector14pad" layer="copper0"/>
-    </pcbView>
-   </views>
+    <description>motor ground</description>
+    <views>
+      <breadboardView>
+        <p svgId="connector14pin" layer="breadboard"/>
+      </breadboardView>
+      <schematicView>
+        <p svgId="connector14pin" layer="schematic" terminalId="connector14terminal"/>
+      </schematicView>
+      <pcbView>
+        <p svgId="connector14pad" layer="copper1"/>
+        <p svgId="connector14pad" layer="copper0"/>
+      </pcbView>
+    </views>
   </connector>
   <connector type="male" id="connector15" name="VMOT">
-   <description>motor power supply (8-35V)</description>
-   <views>
-    <breadboardView>
-     <p svgId="connector15pin" layer="breadboard"/>
-    </breadboardView>
-    <schematicView>
-     <p svgId="connector15pin" layer="schematic" terminalId="connector15terminal"/>
-    </schematicView>
-    <pcbView>
-     <p svgId="connector15pad" layer="copper1"/>
-    <p svgId="connector15pad" layer="copper0"/>
-    </pcbView>
-   </views>
+    <description>motor power supply (8-35V)</description>
+    <views>
+      <breadboardView>
+        <p svgId="connector15pin" layer="breadboard"/>
+      </breadboardView>
+      <schematicView>
+        <p svgId="connector15pin" layer="schematic" terminalId="connector15terminal"/>
+      </schematicView>
+      <pcbView>
+        <p svgId="connector15pad" layer="copper1"/>
+        <p svgId="connector15pad" layer="copper0"/>
+      </pcbView>
+    </views>
   </connector>
- </connectors>
- <buses/>
- <url>http://www.pololu.com/product/1182</url>
- <label>Pololu A4988</label>
-</module>
+</connectors>
+<buses/>
+<url>http://www.pololu.com/product/1182</url>
+<label>Pololu A4988</label>undefined</module>
